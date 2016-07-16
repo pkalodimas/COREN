@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sorting</key>
+	<integer>2</integer>
+	<key>Accuracy</key>
+	<integer>80</integer>
+	<key>Crop</key>
+	<integer>1</integer>
+	<key>Angle</key>
+	<integer>10</integer>
+	<key>Step</key>
+	<integer>5</integer>
+	<key>Padding</key>
+	<integer>10</integer>
+	<key>Depth</key>
+	<integer>2</integer>
+	<key>Template</key>
+	<integer>140</integer>
+	<key>Sample</key>
+	<integer>20</integer>
+</dict>
+</plist>

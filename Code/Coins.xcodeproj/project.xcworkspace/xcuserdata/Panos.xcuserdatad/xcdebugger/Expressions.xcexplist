@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NSObject(ImageProccessing) correlateRotate:tile:withSamples:]:NSObject+ImageProccessing.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CoinsAppSettingsViewController sortButton:]:CoinsAppSettingsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CoinsAppSettingsViewController saveSettings:]:CoinsAppSettingsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NSObject(ImageProccessing) correlateRotate:tile:withSamples:imageview:]:NSObject+ImageProccessing.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

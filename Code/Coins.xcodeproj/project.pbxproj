@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D06D1F415E2962A00B3B026 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D06D1F315E2962A00B3B026 /* CoreImage.framework */; };
+		1D24CCF91530C46D002C8318 /* CoinsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D24CCF81530C46D002C8318 /* CoinsSettingsViewController.m */; };
+		1D24CCFD1530E794002C8318 /* CoinsAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D24CCFC1530E794002C8318 /* CoinsAppSettingsViewController.m */; };
+		1D308BD6151F60960059F6B8 /* CoinsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D308BD5151F60960059F6B8 /* CoinsMainViewController.m */; };
+		1D308BDA151F88D20059F6B8 /* CoinsAddCoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D308BD9151F88D20059F6B8 /* CoinsAddCoinViewController.m */; };
+		1D308BE6151FAC110059F6B8 /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D308BE5151FAC110059F6B8 /* Coin.m */; };
+		1D76FCCB153F4C4D00C40282 /* CountrySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D76FCCA153F4C4D00C40282 /* CountrySettingsViewController.m */; };
+		1D76FCCE1540480D00C40282 /* CountryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D76FCCD1540480D00C40282 /* CountryList.plist */; };
+		1D76FCD21540489A00C40282 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D76FCD11540489A00C40282 /* Settings.plist */; };
+		1D77A4F0156E629B00AF1851 /* CoinSamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A4EF156E629B00AF1851 /* CoinSamplesViewController.m */; };
+		1D7ABB1F151E4CBF00EF6EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7ABB1E151E4CBF00EF6EC2 /* UIKit.framework */; };
+		1D7ABB21151E4CBF00EF6EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7ABB20151E4CBF00EF6EC2 /* Foundation.framework */; };
+		1D7ABB23151E4CBF00EF6EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7ABB22151E4CBF00EF6EC2 /* CoreGraphics.framework */; };
+		1D7ABB29151E4CBF00EF6EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D7ABB27151E4CBF00EF6EC2 /* InfoPlist.strings */; };
+		1D7ABB2B151E4CBF00EF6EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ABB2A151E4CBF00EF6EC2 /* main.m */; };
+		1D7ABB2F151E4CBF00EF6EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ABB2E151E4CBF00EF6EC2 /* AppDelegate.m */; };
+		1D7ABB40151E4CC000EF6EC2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7ABB3F151E4CC000EF6EC2 /* SenTestingKit.framework */; };
+		1D7ABB41151E4CC000EF6EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7ABB1E151E4CBF00EF6EC2 /* UIKit.framework */; };
+		1D7ABB42151E4CC000EF6EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7ABB20151E4CBF00EF6EC2 /* Foundation.framework */; };
+		1D7ABB4A151E4CC000EF6EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D7ABB48151E4CC000EF6EC2 /* InfoPlist.strings */; };
+		1D7ABB4D151E4CC000EF6EC2 /* CoinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ABB4C151E4CC000EF6EC2 /* CoinsTests.m */; };
+		1D7ABB68151E648000EF6EC2 /* CoinsImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ABB67151E648000EF6EC2 /* CoinsImagePickerController.m */; };
+		1D7B05E61521427200EBB98D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7B05E51521427200EBB98D /* MainStoryboard.storyboard */; };
+		1D7BFF841575800A0057F195 /* ActiveCoinsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7BFF831575800A0057F195 /* ActiveCoinsViewController.m */; };
+		1D7CE760169F180C0006125A /* NSObject+ImageProccessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7CE75F169F180C0006125A /* NSObject+ImageProccessing.m */; };
+		1D7CE763169F1D8C0006125A /* NSObject+CoinsManaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7CE762169F1D8C0006125A /* NSObject+CoinsManaging.m */; };
+		1D7D29341590FD1900E3D55A /* ImageProccesserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D29331590FD1900E3D55A /* ImageProccesserViewController.m */; };
+		1DB0E186155075DD00F3D93E /* CoinsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DB0E185155075DD00F3D93E /* CoinsList.plist */; };
+		1DC594C1168CA490002E84D2 /* no_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC594C0168CA490002E84D2 /* no_image.png */; };
+		1DC7AE3016AC74CD005F19E3 /* Backup File.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DC7AE2F16AC74CD005F19E3 /* Backup File.plist */; };
+		1DC7F120158804460051A64D /* CoinsActiveNameSortingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC7F11F158804460051A64D /* CoinsActiveNameSortingCell.m */; };
+		1DC7F124158807700051A64D /* CoinsActiveCountrySortingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC7F123158807700051A64D /* CoinsActiveCountrySortingCell.m */; };
+		1DCE4D8816A497820091D614 /* CoinsStageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE4D8716A497820091D614 /* CoinsStageCell.m */; };
+		1DCE4D8B16A49AAE0091D614 /* CoinsStageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE4D8A16A49AAE0091D614 /* CoinsStageViewController.m */; };
+		1DD3213516AD955F00B4FA48 /* Coins.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1DD3213416AD955F00B4FA48 /* Coins.entitlements */; };
+		1DE111BE16AD427A0059EC4A /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE111B816AD427A0059EC4A /* icon1024.png */; };
+		1DE111BF16AD427A0059EC4A /* icon1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE111B916AD427A0059EC4A /* icon1024x768.png */; };
+		1DE111C016AD427A0059EC4A /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE111BA16AD427A0059EC4A /* icon114.png */; };
+		1DE111C116AD427A0059EC4A /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE111BB16AD427A0059EC4A /* icon57.png */; };
+		1DE111C216AD427A0059EC4A /* icon640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE111BC16AD427A0059EC4A /* icon640x1136.png */; };
+		1DE111C316AD427A0059EC4A /* icon640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE111BD16AD427A0059EC4A /* icon640x960.png */; };
+		1DE111C916AD46E50059EC4A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE111C816AD46E50059EC4A /* Default@2x.png */; };
+		1DE111CB16AD46EE0059EC4A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE111CA16AD46EE0059EC4A /* Default-568h@2x.png */; };
+		1DF81C8D168896E700FE151B /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF81C8C168896E700FE151B /* Overlay.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		1D55B68A15C46A1700CEA1E7 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		1D55B68B15C46A2600CEA1E7 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		1D7ABB43151E4CC000EF6EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D7ABB11151E4CBF00EF6EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D7ABB19151E4CBF00EF6EC2;
+			remoteInfo = Coins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D06D1F315E2962A00B3B026 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1D24CCF71530C46D002C8318 /* CoinsSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsSettingsViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		1D24CCF81530C46D002C8318 /* CoinsSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsSettingsViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D24CCFB1530E794002C8318 /* CoinsAppSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsAppSettingsViewController.h; sourceTree = "<group>"; };
+		1D24CCFC1530E794002C8318 /* CoinsAppSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsAppSettingsViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D308BD4151F60960059F6B8 /* CoinsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsMainViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		1D308BD5151F60960059F6B8 /* CoinsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsMainViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D308BD8151F88D20059F6B8 /* CoinsAddCoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsAddCoinViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		1D308BD9151F88D20059F6B8 /* CoinsAddCoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsAddCoinViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D308BE4151FAC110059F6B8 /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; wrapsLines = 0; };
+		1D308BE5151FAC110059F6B8 /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D76FCC9153F4C4D00C40282 /* CountrySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountrySettingsViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		1D76FCCA153F4C4D00C40282 /* CountrySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountrySettingsViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D76FCCD1540480D00C40282 /* CountryList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryList.plist; sourceTree = "<group>"; };
+		1D76FCD11540489A00C40282 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		1D77A4EE156E629B00AF1851 /* CoinSamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinSamplesViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		1D77A4EF156E629B00AF1851 /* CoinSamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinSamplesViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7ABB1A151E4CBF00EF6EC2 /* Coins Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coins Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7ABB1E151E4CBF00EF6EC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D7ABB20151E4CBF00EF6EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D7ABB22151E4CBF00EF6EC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D7ABB26151E4CBF00EF6EC2 /* Coins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coins-Info.plist"; sourceTree = "<group>"; };
+		1D7ABB28151E4CBF00EF6EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D7ABB2A151E4CBF00EF6EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D7ABB2C151E4CBF00EF6EC2 /* Coins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coins-Prefix.pch"; sourceTree = "<group>"; };
+		1D7ABB2D151E4CBF00EF6EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7ABB2E151E4CBF00EF6EC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7ABB3E151E4CC000EF6EC2 /* CoinsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7ABB3F151E4CC000EF6EC2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D7ABB47151E4CC000EF6EC2 /* CoinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoinsTests-Info.plist"; sourceTree = "<group>"; };
+		1D7ABB49151E4CC000EF6EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D7ABB4B151E4CC000EF6EC2 /* CoinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinsTests.h; sourceTree = "<group>"; };
+		1D7ABB4C151E4CC000EF6EC2 /* CoinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinsTests.m; sourceTree = "<group>"; };
+		1D7ABB66151E648000EF6EC2 /* CoinsImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsImagePickerController.h; sourceTree = "<group>"; };
+		1D7ABB67151E648000EF6EC2 /* CoinsImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsImagePickerController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7B05E51521427200EBB98D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1D7BFF821575800A0057F195 /* ActiveCoinsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveCoinsViewController.h; sourceTree = "<group>"; };
+		1D7BFF831575800A0057F195 /* ActiveCoinsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveCoinsViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7CE75E169F180C0006125A /* NSObject+ImageProccessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImageProccessing.h"; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7CE75F169F180C0006125A /* NSObject+ImageProccessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImageProccessing.m"; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7CE761169F1D8C0006125A /* NSObject+CoinsManaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+CoinsManaging.h"; path = "Coins Project/NSObject+CoinsManaging.h"; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7CE762169F1D8C0006125A /* NSObject+CoinsManaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CoinsManaging.m"; path = "Coins Project/NSObject+CoinsManaging.m"; sourceTree = "<group>"; wrapsLines = 0; };
+		1D7D29321590FD1900E3D55A /* ImageProccesserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProccesserViewController.h; sourceTree = "<group>"; };
+		1D7D29331590FD1900E3D55A /* ImageProccesserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProccesserViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1DAEB6221522703F0049D7FB /* AppDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefinitions.h; sourceTree = "<group>"; wrapsLines = 0; };
+		1DB0E185155075DD00F3D93E /* CoinsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoinsList.plist; sourceTree = "<group>"; };
+		1DC594C0168CA490002E84D2 /* no_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no_image.png; path = ../../images/no_image.png; sourceTree = "<group>"; };
+		1DC7AE2F16AC74CD005F19E3 /* Backup File.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Backup File.plist"; path = "../../Backup File.plist"; sourceTree = "<group>"; };
+		1DC7F11E158804460051A64D /* CoinsActiveNameSortingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsActiveNameSortingCell.h; sourceTree = "<group>"; };
+		1DC7F11F158804460051A64D /* CoinsActiveNameSortingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsActiveNameSortingCell.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1DC7F122158807700051A64D /* CoinsActiveCountrySortingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsActiveCountrySortingCell.h; sourceTree = "<group>"; };
+		1DC7F123158807700051A64D /* CoinsActiveCountrySortingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsActiveCountrySortingCell.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1DCE4D8616A497810091D614 /* CoinsStageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsStageCell.h; sourceTree = "<group>"; };
+		1DCE4D8716A497820091D614 /* CoinsStageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsStageCell.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1DCE4D8916A49AAE0091D614 /* CoinsStageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsStageViewController.h; sourceTree = "<group>"; };
+		1DCE4D8A16A49AAE0091D614 /* CoinsStageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsStageViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		1DD3213416AD955F00B4FA48 /* Coins.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Coins.entitlements; sourceTree = "<group>"; };
+		1DE111B816AD427A0059EC4A /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
+		1DE111B916AD427A0059EC4A /* icon1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024x768.png; sourceTree = "<group>"; };
+		1DE111BA16AD427A0059EC4A /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		1DE111BB16AD427A0059EC4A /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		1DE111BC16AD427A0059EC4A /* icon640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon640x1136.png; sourceTree = "<group>"; };
+		1DE111BD16AD427A0059EC4A /* icon640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon640x960.png; sourceTree = "<group>"; };
+		1DE111C816AD46E50059EC4A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1DE111CA16AD46EE0059EC4A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1DE111CC16AD46FD0059EC4A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1DF81C8C168896E700FE151B /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Overlay.png; path = ../../Overlay.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7ABB17151E4CBF00EF6EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D06D1F415E2962A00B3B026 /* CoreImage.framework in Frameworks */,
+				1D7ABB1F151E4CBF00EF6EC2 /* UIKit.framework in Frameworks */,
+				1D7ABB21151E4CBF00EF6EC2 /* Foundation.framework in Frameworks */,
+				1D7ABB23151E4CBF00EF6EC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7ABB3A151E4CC000EF6EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7ABB40151E4CC000EF6EC2 /* SenTestingKit.framework in Frameworks */,
+				1D7ABB41151E4CC000EF6EC2 /* UIKit.framework in Frameworks */,
+				1D7ABB42151E4CC000EF6EC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7ABB0F151E4CBF00EF6EC2 = {
+			isa = PBXGroup;
+			children = (
+				1DE111CC16AD46FD0059EC4A /* Default.png */,
+				1DE111CA16AD46EE0059EC4A /* Default-568h@2x.png */,
+				1DE111C816AD46E50059EC4A /* Default@2x.png */,
+				1D06D1F315E2962A00B3B026 /* CoreImage.framework */,
+				1D7ABB24151E4CBF00EF6EC2 /* Coins */,
+				1D7ABB45151E4CC000EF6EC2 /* CoinsTests */,
+				1D7ABB1D151E4CBF00EF6EC2 /* Frameworks */,
+				1D7ABB1B151E4CBF00EF6EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D7ABB1B151E4CBF00EF6EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D7ABB1A151E4CBF00EF6EC2 /* Coins Recognition.app */,
+				1D7ABB3E151E4CC000EF6EC2 /* CoinsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D7ABB1D151E4CBF00EF6EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D7ABB1E151E4CBF00EF6EC2 /* UIKit.framework */,
+				1D7ABB20151E4CBF00EF6EC2 /* Foundation.framework */,
+				1D7ABB22151E4CBF00EF6EC2 /* CoreGraphics.framework */,
+				1D7ABB3F151E4CC000EF6EC2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D7ABB24151E4CBF00EF6EC2 /* Coins */ = {
+			isa = PBXGroup;
+			children = (
+				1DD3213416AD955F00B4FA48 /* Coins.entitlements */,
+				1DE111B716AD427A0059EC4A /* icons */,
+				1D7CE761169F1D8C0006125A /* NSObject+CoinsManaging.h */,
+				1D7CE762169F1D8C0006125A /* NSObject+CoinsManaging.m */,
+				1D7CE75E169F180C0006125A /* NSObject+ImageProccessing.h */,
+				1D7CE75F169F180C0006125A /* NSObject+ImageProccessing.m */,
+				1D308BE4151FAC110059F6B8 /* Coin.h */,
+				1D308BE5151FAC110059F6B8 /* Coin.m */,
+				1D7ABB2D151E4CBF00EF6EC2 /* AppDelegate.h */,
+				1D7ABB2E151E4CBF00EF6EC2 /* AppDelegate.m */,
+				1D7D29321590FD1900E3D55A /* ImageProccesserViewController.h */,
+				1D7D29331590FD1900E3D55A /* ImageProccesserViewController.m */,
+				1D7ABB66151E648000EF6EC2 /* CoinsImagePickerController.h */,
+				1D7ABB67151E648000EF6EC2 /* CoinsImagePickerController.m */,
+				1D308BD4151F60960059F6B8 /* CoinsMainViewController.h */,
+				1D308BD5151F60960059F6B8 /* CoinsMainViewController.m */,
+				1D308BD8151F88D20059F6B8 /* CoinsAddCoinViewController.h */,
+				1D308BD9151F88D20059F6B8 /* CoinsAddCoinViewController.m */,
+				1D24CCFB1530E794002C8318 /* CoinsAppSettingsViewController.h */,
+				1D24CCFC1530E794002C8318 /* CoinsAppSettingsViewController.m */,
+				1D24CCF71530C46D002C8318 /* CoinsSettingsViewController.h */,
+				1D24CCF81530C46D002C8318 /* CoinsSettingsViewController.m */,
+				1D76FCC9153F4C4D00C40282 /* CountrySettingsViewController.h */,
+				1D76FCCA153F4C4D00C40282 /* CountrySettingsViewController.m */,
+				1D77A4EE156E629B00AF1851 /* CoinSamplesViewController.h */,
+				1D77A4EF156E629B00AF1851 /* CoinSamplesViewController.m */,
+				1D7BFF821575800A0057F195 /* ActiveCoinsViewController.h */,
+				1D7BFF831575800A0057F195 /* ActiveCoinsViewController.m */,
+				1DC7F11E158804460051A64D /* CoinsActiveNameSortingCell.h */,
+				1DC7F11F158804460051A64D /* CoinsActiveNameSortingCell.m */,
+				1DC7F122158807700051A64D /* CoinsActiveCountrySortingCell.h */,
+				1DC7F123158807700051A64D /* CoinsActiveCountrySortingCell.m */,
+				1D7B05E51521427200EBB98D /* MainStoryboard.storyboard */,
+				1DCE4D8916A49AAE0091D614 /* CoinsStageViewController.h */,
+				1DCE4D8A16A49AAE0091D614 /* CoinsStageViewController.m */,
+				1DCE4D8616A497810091D614 /* CoinsStageCell.h */,
+				1DCE4D8716A497820091D614 /* CoinsStageCell.m */,
+				1DB0E185155075DD00F3D93E /* CoinsList.plist */,
+				1D76FCCD1540480D00C40282 /* CountryList.plist */,
+				1DAEB6221522703F0049D7FB /* AppDefinitions.h */,
+				1DC7AE2F16AC74CD005F19E3 /* Backup File.plist */,
+				1D76FCD11540489A00C40282 /* Settings.plist */,
+				1D7ABB25151E4CBF00EF6EC2 /* Supporting Files */,
+			);
+			path = Coins;
+			sourceTree = "<group>";
+		};
+		1D7ABB25151E4CBF00EF6EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DC594C0168CA490002E84D2 /* no_image.png */,
+				1DF81C8C168896E700FE151B /* Overlay.png */,
+				1D7ABB26151E4CBF00EF6EC2 /* Coins-Info.plist */,
+				1D7ABB27151E4CBF00EF6EC2 /* InfoPlist.strings */,
+				1D7ABB2A151E4CBF00EF6EC2 /* main.m */,
+				1D7ABB2C151E4CBF00EF6EC2 /* Coins-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D7ABB45151E4CC000EF6EC2 /* CoinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D7ABB4B151E4CC000EF6EC2 /* CoinsTests.h */,
+				1D7ABB4C151E4CC000EF6EC2 /* CoinsTests.m */,
+				1D7ABB46151E4CC000EF6EC2 /* Supporting Files */,
+			);
+			path = CoinsTests;
+			sourceTree = "<group>";
+		};
+		1D7ABB46151E4CC000EF6EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D7ABB47151E4CC000EF6EC2 /* CoinsTests-Info.plist */,
+				1D7ABB48151E4CC000EF6EC2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DE111B716AD427A0059EC4A /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				1DE111B816AD427A0059EC4A /* icon1024.png */,
+				1DE111B916AD427A0059EC4A /* icon1024x768.png */,
+				1DE111BA16AD427A0059EC4A /* icon114.png */,
+				1DE111BB16AD427A0059EC4A /* icon57.png */,
+				1DE111BC16AD427A0059EC4A /* icon640x1136.png */,
+				1DE111BD16AD427A0059EC4A /* icon640x960.png */,
+			);
+			name = icons;
+			path = ../../../../../Volumes/Untitled/icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D7ABB19151E4CBF00EF6EC2 /* Coins Recognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7ABB50151E4CC000EF6EC2 /* Build configuration list for PBXNativeTarget "Coins Recognition" */;
+			buildPhases = (
+				1D7ABB16151E4CBF00EF6EC2 /* Sources */,
+				1D7ABB17151E4CBF00EF6EC2 /* Frameworks */,
+				1D7ABB18151E4CBF00EF6EC2 /* Resources */,
+			);
+			buildRules = (
+				1D55B68B15C46A2600CEA1E7 /* PBXBuildRule */,
+				1D55B68A15C46A1700CEA1E7 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "Coins Recognition";
+			productName = Coins;
+			productReference = 1D7ABB1A151E4CBF00EF6EC2 /* Coins Recognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D7ABB3D151E4CC000EF6EC2 /* CoinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7ABB53151E4CC000EF6EC2 /* Build configuration list for PBXNativeTarget "CoinsTests" */;
+			buildPhases = (
+				1D7ABB39151E4CC000EF6EC2 /* Sources */,
+				1D7ABB3A151E4CC000EF6EC2 /* Frameworks */,
+				1D7ABB3B151E4CC000EF6EC2 /* Resources */,
+				1D7ABB3C151E4CC000EF6EC2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D7ABB44151E4CC000EF6EC2 /* PBXTargetDependency */,
+			);
+			name = CoinsTests;
+			productName = CoinsTests;
+			productReference = 1D7ABB3E151E4CC000EF6EC2 /* CoinsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D7ABB11151E4CBF00EF6EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 1D7ABB14151E4CBF00EF6EC2 /* Build configuration list for PBXProject "Coins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D7ABB0F151E4CBF00EF6EC2;
+			productRefGroup = 1D7ABB1B151E4CBF00EF6EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D7ABB19151E4CBF00EF6EC2 /* Coins Recognition */,
+				1D7ABB3D151E4CC000EF6EC2 /* CoinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D7ABB18151E4CBF00EF6EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7ABB29151E4CBF00EF6EC2 /* InfoPlist.strings in Resources */,
+				1D7B05E61521427200EBB98D /* MainStoryboard.storyboard in Resources */,
+				1D76FCCE1540480D00C40282 /* CountryList.plist in Resources */,
+				1D76FCD21540489A00C40282 /* Settings.plist in Resources */,
+				1DB0E186155075DD00F3D93E /* CoinsList.plist in Resources */,
+				1DF81C8D168896E700FE151B /* Overlay.png in Resources */,
+				1DC594C1168CA490002E84D2 /* no_image.png in Resources */,
+				1DC7AE3016AC74CD005F19E3 /* Backup File.plist in Resources */,
+				1DE111BE16AD427A0059EC4A /* icon1024.png in Resources */,
+				1DE111BF16AD427A0059EC4A /* icon1024x768.png in Resources */,
+				1DE111C016AD427A0059EC4A /* icon114.png in Resources */,
+				1DE111C116AD427A0059EC4A /* icon57.png in Resources */,
+				1DE111C216AD427A0059EC4A /* icon640x1136.png in Resources */,
+				1DE111C316AD427A0059EC4A /* icon640x960.png in Resources */,
+				1DE111C916AD46E50059EC4A /* Default@2x.png in Resources */,
+				1DE111CB16AD46EE0059EC4A /* Default-568h@2x.png in Resources */,
+				1DD3213516AD955F00B4FA48 /* Coins.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7ABB3B151E4CC000EF6EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7ABB4A151E4CC000EF6EC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D7ABB3C151E4CC000EF6EC2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D7ABB16151E4CBF00EF6EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7ABB2B151E4CBF00EF6EC2 /* main.m in Sources */,
+				1D7ABB2F151E4CBF00EF6EC2 /* AppDelegate.m in Sources */,
+				1D7ABB68151E648000EF6EC2 /* CoinsImagePickerController.m in Sources */,
+				1D308BD6151F60960059F6B8 /* CoinsMainViewController.m in Sources */,
+				1D308BDA151F88D20059F6B8 /* CoinsAddCoinViewController.m in Sources */,
+				1D308BE6151FAC110059F6B8 /* Coin.m in Sources */,
+				1D24CCF91530C46D002C8318 /* CoinsSettingsViewController.m in Sources */,
+				1D24CCFD1530E794002C8318 /* CoinsAppSettingsViewController.m in Sources */,
+				1D76FCCB153F4C4D00C40282 /* CountrySettingsViewController.m in Sources */,
+				1D77A4F0156E629B00AF1851 /* CoinSamplesViewController.m in Sources */,
+				1D7BFF841575800A0057F195 /* ActiveCoinsViewController.m in Sources */,
+				1DC7F120158804460051A64D /* CoinsActiveNameSortingCell.m in Sources */,
+				1DC7F124158807700051A64D /* CoinsActiveCountrySortingCell.m in Sources */,
+				1D7D29341590FD1900E3D55A /* ImageProccesserViewController.m in Sources */,
+				1D7CE760169F180C0006125A /* NSObject+ImageProccessing.m in Sources */,
+				1D7CE763169F1D8C0006125A /* NSObject+CoinsManaging.m in Sources */,
+				1DCE4D8816A497820091D614 /* CoinsStageCell.m in Sources */,
+				1DCE4D8B16A49AAE0091D614 /* CoinsStageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7ABB39151E4CC000EF6EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7ABB4D151E4CC000EF6EC2 /* CoinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D7ABB44151E4CC000EF6EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D7ABB19151E4CBF00EF6EC2 /* Coins Recognition */;
+			targetProxy = 1D7ABB43151E4CC000EF6EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D7ABB27151E4CBF00EF6EC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7ABB28151E4CBF00EF6EC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D7ABB48151E4CC000EF6EC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7ABB49151E4CC000EF6EC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D7ABB4E151E4CC000EF6EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D7ABB4F151E4CC000EF6EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D7ABB51151E4CC000EF6EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coins/Coins-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Coins/Coins-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D7ABB52151E4CC000EF6EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coins/Coins-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Coins/Coins-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D7ABB54151E4CC000EF6EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coins.app/Coins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coins/Coins-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "CoinsTests/CoinsTests-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1D7ABB55151E4CC000EF6EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coins.app/Coins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coins/Coins-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "CoinsTests/CoinsTests-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D7ABB14151E4CBF00EF6EC2 /* Build configuration list for PBXProject "Coins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7ABB4E151E4CC000EF6EC2 /* Debug */,
+				1D7ABB4F151E4CC000EF6EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D7ABB50151E4CC000EF6EC2 /* Build configuration list for PBXNativeTarget "Coins Recognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7ABB51151E4CC000EF6EC2 /* Debug */,
+				1D7ABB52151E4CC000EF6EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D7ABB53151E4CC000EF6EC2 /* Build configuration list for PBXNativeTarget "CoinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7ABB54151E4CC000EF6EC2 /* Debug */,
+				1D7ABB55151E4CC000EF6EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D7ABB11151E4CBF00EF6EC2 /* Project object */;
+}
